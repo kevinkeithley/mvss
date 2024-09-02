@@ -1,12 +1,13 @@
 Tournament ID,Year,Tournament name,Date,Location,Par,Yards,Purse,End Date
+401580366,2024,TOUR Championship,"Aug 29 - September 1, 2024","East Lake Golf Club - Atlanta, GA",71,7490,,2024-09-01
 401580365,2024,BMW Championship,"August 22 - 25, 2024","Castle Pines Golf Club - Castle Rock, CO",72,8130,20000000.0,2024-08-25
 401580364,2024,FedEx St. Jude Championship,"August 15 - 18, 2024","TPC Southwind - Memphis, TN",70,7243,20000000.0,2024-08-18
 401580363,2024,Wyndham Championship,"August 8 - 12, 2024","Sedgefield Country Club - Greensboro, NC",70,7131,7900000.0,2024-08-12
 401580362,2024,3M Open,"July 25 - 28, 2024","TPC Twin Cities - Blaine, MN",71,7431,8100000.0,2024-07-28
-401580360,2024,The Open,"July 18 - 21, 2024","Royal Troon Golf Course - Troon, Scotland",71,7385,17000000.0,2024-07-21
 401580361,2024,Barracuda Championship,"July 18 - 21, 2024","Tahoe Mountain Club (Old Greenwood) - Truckee, CA",71,7480,4000000.0,2024-07-21
-401580359,2024,Genesis Scottish Open,"July 11 - 14, 2024","The Renaissance Club - North Berwick, Scotland",70,7237,9000000.0,2024-07-14
+401580360,2024,The Open,"July 18 - 21, 2024","Royal Troon Golf Course - Troon, Scotland",71,7385,17000000.0,2024-07-21
 401634279,2024,ISCO Championship,"July 11 - 14, 2024","Keene Trace Golf Club (Champions Course) - Nicholasville, KY",72,7328,4000000.0,2024-07-14
+401580359,2024,Genesis Scottish Open,"July 11 - 14, 2024","The Renaissance Club - North Berwick, Scotland",70,7237,9000000.0,2024-07-14
 401580358,2024,John Deere Classic,"July 4 - 7, 2024","TPC Deere Run - Silvis, IL",71,7289,8000000.0,2024-07-07
 401580357,2024,Rocket Mortgage Classic,"June 27 - 30, 2024","Detroit Golf Club - Detroit, MI",72,7370,9200000.0,2024-06-30
 401580356,2024,Travelers Championship,"June 20 - 23, 2024","TPC River Highlands - Cromwell, CT",70,6835,20000000.0,2024-06-23
@@ -48,8 +49,8 @@ Tournament ID,Year,Tournament name,Date,Location,Par,Yards,Purse,End Date
 401465543,2022-23,FedEx St. Jude Championship,"August 10 - 13, 2023","TPC Southwind - Memphis, TN",70,7243,20000000.0,2023-08-13
 401465542,2022-23,Wyndham Championship,"August 3 - 6, 2023","Sedgefield Country Club - Greensboro, NC",70,7131,7600000.0,2023-08-06
 401465541,2022-23,3M Open,"July 27 - 30, 2023","TPC Twin Cities - Blaine, MN",71,7431,7800000.0,2023-07-30
-401465539,2022-23,The Open,"July 20 - 23, 2023",Royal Liverpool GC - Hoylake,71,7383,16500000.0,2023-07-23
 401465540,2022-23,Barracuda Championship,"July 20 - 23, 2023","Tahoe Mountain Club (Old Greenwood) - Truckee, CA",71,7480,3800000.0,2023-07-23
+401465539,2022-23,The Open,"July 20 - 23, 2023",Royal Liverpool GC - Hoylake,71,7383,16500000.0,2023-07-23
 401465537,2022-23,Genesis Scottish Open,"July 13 - 16, 2023","The Renaissance Club - North Berwick, Scotland",70,7237,9000000.0,2023-07-16
 401465538,2022-23,Barbasol Championship,"July 13 - 16, 2023","Keene Trace Golf Club (Champions Course) - Nicholasville, KY",72,7328,3800000.0,2023-07-16
 401465536,2022-23,John Deere Classic,"July 6 - 9, 2023","TPC Deere Run - Silvis, IL",71,7289,7400000.0,2023-07-09

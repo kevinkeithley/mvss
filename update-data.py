@@ -80,7 +80,7 @@ def update_tournament_info(tournament_ids, data_directory="data"):
 if __name__ == "__main__":
 
     # Tournament IDs to add
-    tournament_ids_to_update = ["401580365"]
+    tournament_ids_to_update = ["401580366"]
 
     # Add tournament metadata to tournament_info.csv
     update_tournament_info(tournament_ids_to_update)
