@@ -1,125 +1,126 @@
-Tournament ID,Year,Tournament name,Date,Location,Par,Yards,Purse
-401552861,2022-23,Hero World Challenge,"Nov 30 - December 3, 2023","Albany - New Providence, Bahamas",72,7449,4500000
-401552858,2022-23,World Wide Technology Championship,"November 2 - 5, 2023","El Cardonal at Diamante - Cabo San Lucas, Mexico",72,7452,8200000
-401552857,2022-23,ZOZO CHAMPIONSHIP,"October 19 - 22, 2023","Accordia Golf Narashino CC - Chiba, Japan",70,7079,8500000
-401552856,2022-23,Shriners Children's Open,"October 12 - 15, 2023","TPC Summerlin - Las Vegas, NV",71,7255,8400000
-401552854,2022-23,Fortinet Championship,"September 14 - 17, 2023","Silverado Resort and Spa (North Course) - Napa, CA",72,7123,8400000
-401465545,2022-23,TOUR Championship,"August 24 - 27, 2023","East Lake Golf Club - Atlanta, GA",70,7346,
-401465544,2022-23,BMW Championship,"August 17 - 20, 2023","Olympia Fields Country Club - Olympia Fields, IL",70,7366,20000000
-401465543,2022-23,FedEx St. Jude Championship,"August 10 - 13, 2023","TPC Southwind - Memphis, TN",70,7243,20000000
-401465542,2022-23,Wyndham Championship,"August 3 - 6, 2023","Sedgefield Country Club - Greensboro, NC",70,7131,7600000
-401465541,2022-23,3M Open,"July 27 - 30, 2023","TPC Twin Cities - Blaine, MN",71,7431,7800000
-401465540,2022-23,Barracuda Championship,"July 20 - 23, 2023","Tahoe Mountain Club (Old Greenwood) - Truckee, CA",71,7480,3800000
-401465539,2022-23,The Open,"July 20 - 23, 2023",Royal Liverpool GC - Hoylake,71,7383,16500000
-401465538,2022-23,Barbasol Championship,"July 13 - 16, 2023","Keene Trace Golf Club (Champions Course) - Nicholasville, KY",72,7328,3800000
-401465537,2022-23,Genesis Scottish Open,"July 13 - 16, 2023","The Renaissance Club - North Berwick, Scotland",70,7237,9000000
-401465536,2022-23,John Deere Classic,"July 6 - 9, 2023","TPC Deere Run - Silvis, IL",71,7289,7400000
-401465535,2022-23,Rocket Mortgage Classic,"Jun 29 - July 2, 2023","Detroit Golf Club - Detroit, MI",72,7370,8800000
-401465534,2022-23,Travelers Championship,"June 22 - 25, 2023","TPC River Highlands - Cromwell, CT",70,6852,20000000
-401465533,2022-23,U.S. Open,"June 15 - 18, 2023","Los Angeles Country Club - Los Angeles, CA",70,7421,20000000
-401465532,2022-23,RBC Canadian Open,"June 8 - 11, 2023","Oakdale Golf & Country Club - Toronto, ON",72,7264,9000000
-401465531,2022-23,The Memorial Tournament pres. by Workday,"June 1 - 4, 2023","Muirfield Village Golf Club - Dublin, OH",72,7571,20000000
-401465530,2022-23,Charles Schwab Challenge,"May 25 - 28, 2023","Colonial Country Club - Fort Worth, TX",70,7209,8700000
-401465523,2022-23,PGA Championship,"May 18 - 21, 2023","Oak Hill Country Club - Rochester, NY",70,7394,17500000
-401465520,2022-23,AT&T Byron Nelson,"May 11 - 14, 2023","TPC Craig Ranch - McKinney, TX",71,7414,9500000
-401465519,2022-23,Wells Fargo Championship,"May 4 - 7, 2023","Quail Hollow Club - Charlotte, NC",71,7538,20000000
-401465515,2022-23,Mexico Open,"April 27 - 30, 2023","Vidanta Vallarta - Nuevo Vallarta, Mexico",71,7456,7700000
-401465509,2022-23,RBC Heritage,"April 13 - 16, 2023","Harbour Town Golf Links - Hilton Head Island, SC",71,7213,20000000
-401465508,2022-23,Masters Tournament,"April 6 - 9, 2023","Augusta National Golf Club - Augusta, GA",72,7545,18000000
-401465502,2022-23,Valero Texas Open,"Mar 30 - April 2, 2023","TPC San Antonio (Oaks Course) - San Antonio, TX",72,7438,8900000
-401465529,2022-23,Corales Puntacana Championship,"March 23 - 26, 2023","Puntacana Resort & Club (Corales Golf Course) - Punta Cana, Dominican Republic",72,7670,3800000
-401465527,2022-23,Valspar Championship,"March 16 - 19, 2023","Innisbrook Resort (Copperhead Course) - Palm Harbor, FL",71,7340,8100000
-401465526,2022-23,THE PLAYERS Championship,"March 9 - 12, 2023","TPC Sawgrass (THE PLAYERS Stadium Course) - Ponte Vedra Beach, FL",72,7275,25000000
-401465524,2022-23,Arnold Palmer Invitational pres. by Mastercard,"March 2 - 5, 2023","Arnold Palmer's Bay Hill Club & Lodge - Orlando, FL",72,7466,20000000
-401465525,2022-23,Puerto Rico Open,"March 2 - 5, 2023","Grand Reserve Country Club - Rio Grande, Puerto Rico",72,7506,3800000
-401465522,2022-23,The Honda Classic,"February 23 - 26, 2023","PGA National Resort & Spa (The Champion) - Palm Beach Gardens, FL",70,7140,8400000
-401465521,2022-23,The Genesis Invitational,"February 16 - 19, 2023","Riviera Country Club - Pacific Palisades, CA",71,7322,20000000
-401465518,2022-23,WM Phoenix Open,"February 9 - 12, 2023","TPC Scottsdale (Stadium Course) - Scottsdale, AZ",71,7261,20000000
-401465516,2022-23,Farmers Insurance Open,"January 25 - 28, 2023","Torrey Pines (North Course) - La Jolla, CA",72,7258,
-401465514,2022-23,The American Express,"January 19 - 22, 2023","La Quinta Country Club - La Quinta, CA",72,7060,
-401465513,2022-23,Sony Open in Hawaii,"January 12 - 15, 2023","Waialae Country Club - Honolulu, HI",70,7044,7900000
-401465512,2022-23,Sentry Tournament of Champions,"January 5 - 8, 2023","Kapalua Resort (Plantation Course) - Kapalua, HI",73,7596,15000000
-401552860,2022-23,The RSM Classic,"November 16 - 19, 2023","Sea Island Resort (Seaside Course) - Saint Simons Island, GA",70,7005,
-401465505,2022-23,Cadence Bank Houston Open,"November 10 - 13, 2022","Memorial Park Golf Course - Houston, TX",70,7412,8400000
-401552859,2022-23,Butterfield Bermuda Championship,"November 9 - 12, 2023","Port Royal Golf Course - Southampton Parish, Bermuda",71,6828,6500000
-401465501,2022-23,THE CJ CUP in South Carolina,"October 20 - 23, 2022","Congaree Golf Club - Ridgeland, SC",71,7655,10500000
-401552855,2022-23,Sanderson Farms Championship,"October 5 - 8, 2023","Country Club of Jackson - Jackson, MS",72,7461,8200000
-401580364,2024,FedEx St. Jude Championship,"August 15 - 18, 2024","TPC Southwind - Memphis, TN",70,7243,20000000
-401580363,2024,Wyndham Championship,"August 8 - 12, 2024","Sedgefield Country Club - Greensboro, NC",70,7131,7900000
-401580362,2024,3M Open,"July 25 - 28, 2024","TPC Twin Cities - Blaine, MN",71,7431,8100000
-401580361,2024,Barracuda Championship,"July 18 - 21, 2024","Tahoe Mountain Club (Old Greenwood) - Truckee, CA",71,7480,4000000
-401580360,2024,The Open,"July 18 - 21, 2024","Royal Troon Golf Course - Troon, Scotland",71,7385,17000000
-401634279,2024,ISCO Championship,"July 11 - 14, 2024","Keene Trace Golf Club (Champions Course) - Nicholasville, KY",72,7328,4000000
-401580359,2024,Genesis Scottish Open,"July 11 - 14, 2024","The Renaissance Club - North Berwick, Scotland",70,7237,9000000
-401580358,2024,John Deere Classic,"July 4 - 7, 2024","TPC Deere Run - Silvis, IL",71,7289,8000000
-401580357,2024,Rocket Mortgage Classic,"June 27 - 30, 2024","Detroit Golf Club - Detroit, MI",72,7370,9200000
-401580356,2024,Travelers Championship,"June 20 - 23, 2024","TPC River Highlands - Cromwell, CT",70,6835,20000000
-401580355,2024,U.S. Open,"June 13 - 16, 2024","Pinehurst No. 2 - Pinehurst, NC",70,7569,21500000
-401580354,2024,the Memorial Tournament pres. by Workday,"June 6 - 9, 2024","Muirfield Village Golf Club - Dublin, OH",72,7569,20000000
-401580353,2024,RBC Canadian Open,"May 30 - June 2, 2024","Hamilton Golf & Country Club - Hamilton, ON",70,7084,9400000
-401580352,2024,Charles Schwab Challenge,"May 23 - 26, 2024","Colonial Country Club - Fort Worth, TX",70,7289,9100000
-401580351,2024,PGA Championship,"May 16 - 19, 2024","Valhalla Golf Club - Louisville, KY",71,7609,18500000
-401580350,2024,Myrtle Beach Classic,"May 9 - 12, 2024","Dunes Golf & Beach Club - Myrtle Beach, SC",71,7347,4000000
-401580349,2024,Wells Fargo Championship,"May 9 - 12, 2024","Quail Hollow Club - Charlotte, NC",71,7558,20000000
-401580348,2024,THE CJ CUP Byron Nelson,"May 2 - 5, 2024","TPC Craig Ranch - McKinney, TX",71,7414,9500000
-401580346,2024,Corales Puntacana Championship,"April 18 - 21, 2024","Puntacana Resort & Club (Corales Golf Course) - Punta Cana, Dominican Republic",72,7670,4000000
-401580345,2024,RBC Heritage,"April 18 - 22, 2024","Harbour Town Golf Links - Hilton Head Island, SC",71,7213,20000000
-401580344,2024,Masters Tournament,"April 11 - 14, 2024","Augusta National Golf Club - Augusta, GA",72,7555,20000000
-401580343,2024,Valero Texas Open,"April 4 - 7, 2024","TPC San Antonio (Oaks Course) - San Antonio, TX",72,7438,9200000
-401580342,2024,Texas Children's Houston Open,"March 28 - 31, 2024","Memorial Park Golf Course - Houston, TX",70,7435,9100000
-401580341,2024,Valspar Championship,"March 21 - 24, 2024","Innisbrook Resort (Copperhead Course) - Palm Harbor, FL",71,7340,8400000
-401580340,2024,THE PLAYERS Championship,"March 14 - 17, 2024","TPC Sawgrass (THE PLAYERS Stadium Course) - Ponte Vedra Beach, FL",72,7275,25000000
-401580339,2024,Puerto Rico Open,"March 7 - 10, 2024","Grand Reserve Country Club - Rio Grande, Puerto Rico",72,7506,4000000
-401580338,2024,Arnold Palmer Invitational pres. by Mastercard,"March 7 - 10, 2024","Arnold Palmer's Bay Hill Club & Lodge - Orlando, FL",72,7466,20000000
-401580337,2024,Cognizant Classic,"Feb 29 - March 3, 2024","PGA National Resort & Spa (The Champion) - Palm Beach Gardens, FL",71,7147,9000000
-401580336,2024,Mexico Open at Vidanta,"February 22 - 25, 2024","Vidanta Vallarta - Nuevo Vallarta, Mexico",71,7456,8100000
-401580335,2024,The Genesis Invitational,"February 15 - 18, 2024","Riviera Country Club - Pacific Palisades, CA",71,7322,20000000
-401580334,2024,WM Phoenix Open,"February 8 - 11, 2024","TPC Scottsdale (Stadium Course) - Scottsdale, AZ",71,7261,8800000
-401580332,2024,Farmers Insurance Open,"January 24 - 27, 2024","Torrey Pines (North Course) - La Jolla, CA",72,7258,
-401580331,2024,The American Express,"January 18 - 21, 2024","La Quinta Country Club - La Quinta, CA",72,7060,
-401580330,2024,Sony Open in Hawaii,"January 11 - 14, 2024","Waialae Country Club - Honolulu, HI",70,7044,8300000
-401580329,2024,The Sentry,"January 4 - 7, 2024","Kapalua Resort (Plantation Course) - Kapalua, HI",73,7596,20000000
-401353276,2021-22,TOUR Championship,"August 25 - 28, 2022","East Lake Golf Club - Atlanta, GA",70,7346,
-401353275,2021-22,BMW Championship,"August 18 - 21, 2022","Wilmington Country Club (South Course) - Wilmington, DE",71,7534,15000000
-401353274,2021-22,FedEx St. Jude Championship,"August 11 - 14, 2022","TPC Southwind - Memphis, TN",70,7243,15000000
-401353213,2021-22,Wyndham Championship,"August 4 - 7, 2022","Sedgefield Country Club - Greensboro, NC",70,7131,7300000
-401353214,2021-22,Rocket Mortgage Classic,"July 28 - 31, 2022","Detroit Golf Club - Detroit, MI",72,7370,8400000
-401353215,2021-22,3M Open,"July 21 - 24, 2022","TPC Twin Cities - Blaine, MN",71,7431,7500000
-401353216,2021-22,Barracuda Championship,"July 14 - 17, 2022","Tahoe Mountain Club (Old Greenwood) - Truckee, CA",71,7480,3700000
-401353217,2021-22,The Open,"July 14 - 17, 2022","St Andrews Links (Old Course) - St. Andrews, Scotland",72,7313,14000000
-401353218,2021-22,Barbasol Championship,"July 7 - 10, 2022","Keene Trace Golf Club (Champions Course) - Nicholasville, KY",72,7328,3700000
-401353219,2021-22,Genesis Scottish Open,"July 7 - 10, 2022","The Renaissance Club - North Berwick, Scotland",70,7237,8000000
-401353220,2021-22,John Deere Classic,"Jun 30 - July 3, 2022","TPC Deere Run - Silvis, IL",71,7289,7100000
-401353221,2021-22,Travelers Championship,"June 23 - 26, 2022","TPC River Highlands - Cromwell, CT",70,6852,8300000
-401353222,2021-22,U.S. Open,"June 16 - 19, 2022","The Country Club - Brookline, MA",70,7254,17500000
-401353223,2021-22,RBC Canadian Open,"June 9 - 12, 2022","St. George's Golf and Country Club - Toronto, ON",70,7014,8700000
-401353224,2021-22,the Memorial Tournament pres. by Workday,"June 2 - 5, 2022","Muirfield Village Golf Club - Dublin, OH",72,7533,12000000
-401353225,2021-22,Charles Schwab Challenge,"May 26 - 29, 2022","Colonial Country Club - Fort Worth, TX",70,7209,8400000
-401353226,2021-22,PGA Championship,"May 19 - 22, 2022","Southern Hills Country Club - Tulsa, OK",70,7556,15000000
-401353227,2021-22,AT&T Byron Nelson,"May 12 - 15, 2022","TPC Craig Ranch - McKinney, TX",72,7468,9100000
-401353228,2021-22,Wells Fargo Championship,"May 5 - 8, 2022","TPC Potomac at Avenel Farm - Potomac, MD",70,7160,9000000
-401353229,2021-22,Mexico Open,"Apr 28 - May 1, 2022","Vidanta Vallarta - Nuevo Vallarta, Mexico",71,7456,7300000
-401353231,2021-22,RBC Heritage,"April 14 - 17, 2022","Harbour Town Golf Links - Hilton Head Island, SC",71,7191,8000000
-401353232,2021-22,Masters Tournament,"April 7 - 10, 2022","Augusta National Golf Club - Augusta, GA",72,7475,15000000
-401353273,2021-22,Valero Texas Open,"Mar 31 - April 3, 2022","TPC San Antonio (Oaks Course) - San Antonio, TX",72,7438,8600000
-401353294,2021-22,Corales Puntacana Championship,"March 24 - 27, 2022","Puntacana Resort & Club (Corales Golf Course) - Punta Cana, Dominican Republic",72,7670,3700000
-401353255,2021-22,Valspar Championship,"March 17 - 20, 2022","Innisbrook Resort (Copperhead Course) - Palm Harbor, FL",71,7340,7800000
-401353254,2021-22,THE PLAYERS Championship,"March 10 - 14, 2022","TPC Sawgrass (THE PLAYERS Stadium Course) - Ponte Vedra Beach, FL",72,7256,20000000
-401353253,2021-22,Puerto Rico Open,"March 3 - 6, 2022","Grand Reserve Country Club - Rio Grande, Puerto Rico",72,7506,3700000
-401353239,2021-22,Arnold Palmer Invitational pres. by Mastercard,"March 3 - 6, 2022","Arnold Palmer's Bay Hill Club & Lodge - Orlando, FL",72,7466,12000000
-401353238,2021-22,The Honda Classic,"February 24 - 27, 2022","PGA National Resort & Spa (The Champion) - Palm Beach Gardens, FL",70,7125,8000000
-401353237,2021-22,The Genesis Invitational,"February 17 - 20, 2022","Riviera Country Club - Pacific Palisades, CA",71,7322,12000000
-401353236,2021-22,WM Phoenix Open,"February 10 - 13, 2022","TPC Scottsdale (Stadium Course) - Scottsdale, AZ",71,7261,8200000
-401353234,2021-22,Farmers Insurance Open,"January 26 - 29, 2022","Torrey Pines (North Course) - La Jolla, CA",72,7258,
-401353233,2021-22,The American Express,"January 20 - 23, 2022","La Quinta Country Club - La Quinta, CA",72,7060,
-401353204,2021-22,Sony Open in Hawaii,"January 13 - 16, 2022","Waialae Country Club - Honolulu, HI",70,7044,7500000
-401353203,2021-22,Sentry Tournament of Champions,"January 6 - 9, 2022","Kapalua Resort (Plantation Course) - Kapalua, HI",73,7596,8200000
-401366873,2021-22,Hero World Challenge,"December 2 - 5, 2021","Albany - New Providence, Bahamas",72,7414,3500000
-401353202,2021-22,The RSM Classic,"November 18 - 21, 2021","Sea Island Resort (Seaside Course) - Saint Simons Island, GA",70,7005,
-401353201,2021-22,Houston Open,"November 11 - 14, 2021","Memorial Park Golf Course - Houston, TX",70,7412,7500000
-401353200,2021-22,World Wide Technology Championship at Mayakoba,"November 4 - 7, 2021","El Camaleón Golf Course at Mayakoba - Quintana Roo, Mexico",71,7017,7200000
-401353199,2021-22,Butterfield Bermuda Championship,"October 28 - 31, 2021","Port Royal Golf Course - Southampton Parish, Bermuda",71,6828,6500000
-401353197,2021-22,ZOZO CHAMPIONSHIP,"October 21 - 24, 2021","Accordia Golf Narashino CC - Chiba, Japan",70,7041,9950000
-401353196,2021-22,THE CJ CUP @ SUMMIT,"October 14 - 17, 2021","The Summit Club - Las Vegas, NV",72,7431,9750000
-401353195,2021-22,Shriners Children's Open,"October 7 - 10, 2021","TPC Summerlin - Las Vegas, NV",71,7255,7000000
-401353194,2021-22,Sanderson Farms Championship,"Sep 30 - October 3, 2021","Country Club of Jackson - Jackson, MS",72,7461,7000000
+Tournament ID,Year,Tournament name,Date,Location,Par,Yards,Purse,End Date
+401580365,2024,BMW Championship,"August 22 - 25, 2024","Castle Pines Golf Club - Castle Rock, CO",72,8130,20000000.0,2024-08-25
+401580364,2024,FedEx St. Jude Championship,"August 15 - 18, 2024","TPC Southwind - Memphis, TN",70,7243,20000000.0,2024-08-18
+401580363,2024,Wyndham Championship,"August 8 - 12, 2024","Sedgefield Country Club - Greensboro, NC",70,7131,7900000.0,2024-08-12
+401580362,2024,3M Open,"July 25 - 28, 2024","TPC Twin Cities - Blaine, MN",71,7431,8100000.0,2024-07-28
+401580360,2024,The Open,"July 18 - 21, 2024","Royal Troon Golf Course - Troon, Scotland",71,7385,17000000.0,2024-07-21
+401580361,2024,Barracuda Championship,"July 18 - 21, 2024","Tahoe Mountain Club (Old Greenwood) - Truckee, CA",71,7480,4000000.0,2024-07-21
+401580359,2024,Genesis Scottish Open,"July 11 - 14, 2024","The Renaissance Club - North Berwick, Scotland",70,7237,9000000.0,2024-07-14
+401634279,2024,ISCO Championship,"July 11 - 14, 2024","Keene Trace Golf Club (Champions Course) - Nicholasville, KY",72,7328,4000000.0,2024-07-14
+401580358,2024,John Deere Classic,"July 4 - 7, 2024","TPC Deere Run - Silvis, IL",71,7289,8000000.0,2024-07-07
+401580357,2024,Rocket Mortgage Classic,"June 27 - 30, 2024","Detroit Golf Club - Detroit, MI",72,7370,9200000.0,2024-06-30
+401580356,2024,Travelers Championship,"June 20 - 23, 2024","TPC River Highlands - Cromwell, CT",70,6835,20000000.0,2024-06-23
+401580355,2024,U.S. Open,"June 13 - 16, 2024","Pinehurst No. 2 - Pinehurst, NC",70,7569,21500000.0,2024-06-16
+401580354,2024,the Memorial Tournament pres. by Workday,"June 6 - 9, 2024","Muirfield Village Golf Club - Dublin, OH",72,7569,20000000.0,2024-06-09
+401580353,2024,RBC Canadian Open,"May 30 - June 2, 2024","Hamilton Golf & Country Club - Hamilton, ON",70,7084,9400000.0,2024-06-02
+401580352,2024,Charles Schwab Challenge,"May 23 - 26, 2024","Colonial Country Club - Fort Worth, TX",70,7289,9100000.0,2024-05-26
+401580351,2024,PGA Championship,"May 16 - 19, 2024","Valhalla Golf Club - Louisville, KY",71,7609,18500000.0,2024-05-19
+401580350,2024,Myrtle Beach Classic,"May 9 - 12, 2024","Dunes Golf & Beach Club - Myrtle Beach, SC",71,7347,4000000.0,2024-05-12
+401580349,2024,Wells Fargo Championship,"May 9 - 12, 2024","Quail Hollow Club - Charlotte, NC",71,7558,20000000.0,2024-05-12
+401580348,2024,THE CJ CUP Byron Nelson,"May 2 - 5, 2024","TPC Craig Ranch - McKinney, TX",71,7414,9500000.0,2024-05-05
+401580345,2024,RBC Heritage,"April 18 - 22, 2024","Harbour Town Golf Links - Hilton Head Island, SC",71,7213,20000000.0,2024-04-22
+401580346,2024,Corales Puntacana Championship,"April 18 - 21, 2024","Puntacana Resort & Club (Corales Golf Course) - Punta Cana, Dominican Republic",72,7670,4000000.0,2024-04-21
+401580344,2024,Masters Tournament,"April 11 - 14, 2024","Augusta National Golf Club - Augusta, GA",72,7555,20000000.0,2024-04-14
+401580343,2024,Valero Texas Open,"April 4 - 7, 2024","TPC San Antonio (Oaks Course) - San Antonio, TX",72,7438,9200000.0,2024-04-07
+401580342,2024,Texas Children's Houston Open,"March 28 - 31, 2024","Memorial Park Golf Course - Houston, TX",70,7435,9100000.0,2024-03-31
+401580341,2024,Valspar Championship,"March 21 - 24, 2024","Innisbrook Resort (Copperhead Course) - Palm Harbor, FL",71,7340,8400000.0,2024-03-24
+401580340,2024,THE PLAYERS Championship,"March 14 - 17, 2024","TPC Sawgrass (THE PLAYERS Stadium Course) - Ponte Vedra Beach, FL",72,7275,25000000.0,2024-03-17
+401580338,2024,Arnold Palmer Invitational pres. by Mastercard,"March 7 - 10, 2024","Arnold Palmer's Bay Hill Club & Lodge - Orlando, FL",72,7466,20000000.0,2024-03-10
+401580339,2024,Puerto Rico Open,"March 7 - 10, 2024","Grand Reserve Country Club - Rio Grande, Puerto Rico",72,7506,4000000.0,2024-03-10
+401580337,2024,Cognizant Classic,"Feb 29 - March 3, 2024","PGA National Resort & Spa (The Champion) - Palm Beach Gardens, FL",71,7147,9000000.0,2024-03-03
+401580336,2024,Mexico Open at Vidanta,"February 22 - 25, 2024","Vidanta Vallarta - Nuevo Vallarta, Mexico",71,7456,8100000.0,2024-02-25
+401580335,2024,The Genesis Invitational,"February 15 - 18, 2024","Riviera Country Club - Pacific Palisades, CA",71,7322,20000000.0,2024-02-18
+401580334,2024,WM Phoenix Open,"February 8 - 11, 2024","TPC Scottsdale (Stadium Course) - Scottsdale, AZ",71,7261,8800000.0,2024-02-11
+401580332,2024,Farmers Insurance Open,"January 24 - 27, 2024","Torrey Pines (North Course) - La Jolla, CA",72,7258,,2024-01-27
+401580331,2024,The American Express,"January 18 - 21, 2024","La Quinta Country Club - La Quinta, CA",72,7060,,2024-01-21
+401580330,2024,Sony Open in Hawaii,"January 11 - 14, 2024","Waialae Country Club - Honolulu, HI",70,7044,8300000.0,2024-01-14
+401580329,2024,The Sentry,"January 4 - 7, 2024","Kapalua Resort (Plantation Course) - Kapalua, HI",73,7596,20000000.0,2024-01-07
+401552861,2022-23,Hero World Challenge,"Nov 30 - December 3, 2023","Albany - New Providence, Bahamas",72,7449,4500000.0,2023-12-03
+401552860,2022-23,The RSM Classic,"November 16 - 19, 2023","Sea Island Resort (Seaside Course) - Saint Simons Island, GA",70,7005,,2023-11-19
+401552859,2022-23,Butterfield Bermuda Championship,"November 9 - 12, 2023","Port Royal Golf Course - Southampton Parish, Bermuda",71,6828,6500000.0,2023-11-12
+401552858,2022-23,World Wide Technology Championship,"November 2 - 5, 2023","El Cardonal at Diamante - Cabo San Lucas, Mexico",72,7452,8200000.0,2023-11-05
+401552857,2022-23,ZOZO CHAMPIONSHIP,"October 19 - 22, 2023","Accordia Golf Narashino CC - Chiba, Japan",70,7079,8500000.0,2023-10-22
+401552856,2022-23,Shriners Children's Open,"October 12 - 15, 2023","TPC Summerlin - Las Vegas, NV",71,7255,8400000.0,2023-10-15
+401552855,2022-23,Sanderson Farms Championship,"October 5 - 8, 2023","Country Club of Jackson - Jackson, MS",72,7461,8200000.0,2023-10-08
+401552854,2022-23,Fortinet Championship,"September 14 - 17, 2023","Silverado Resort and Spa (North Course) - Napa, CA",72,7123,8400000.0,2023-09-17
+401465545,2022-23,TOUR Championship,"August 24 - 27, 2023","East Lake Golf Club - Atlanta, GA",70,7346,,2023-08-27
+401465544,2022-23,BMW Championship,"August 17 - 20, 2023","Olympia Fields Country Club - Olympia Fields, IL",70,7366,20000000.0,2023-08-20
+401465543,2022-23,FedEx St. Jude Championship,"August 10 - 13, 2023","TPC Southwind - Memphis, TN",70,7243,20000000.0,2023-08-13
+401465542,2022-23,Wyndham Championship,"August 3 - 6, 2023","Sedgefield Country Club - Greensboro, NC",70,7131,7600000.0,2023-08-06
+401465541,2022-23,3M Open,"July 27 - 30, 2023","TPC Twin Cities - Blaine, MN",71,7431,7800000.0,2023-07-30
+401465539,2022-23,The Open,"July 20 - 23, 2023",Royal Liverpool GC - Hoylake,71,7383,16500000.0,2023-07-23
+401465540,2022-23,Barracuda Championship,"July 20 - 23, 2023","Tahoe Mountain Club (Old Greenwood) - Truckee, CA",71,7480,3800000.0,2023-07-23
+401465537,2022-23,Genesis Scottish Open,"July 13 - 16, 2023","The Renaissance Club - North Berwick, Scotland",70,7237,9000000.0,2023-07-16
+401465538,2022-23,Barbasol Championship,"July 13 - 16, 2023","Keene Trace Golf Club (Champions Course) - Nicholasville, KY",72,7328,3800000.0,2023-07-16
+401465536,2022-23,John Deere Classic,"July 6 - 9, 2023","TPC Deere Run - Silvis, IL",71,7289,7400000.0,2023-07-09
+401465535,2022-23,Rocket Mortgage Classic,"Jun 29 - July 2, 2023","Detroit Golf Club - Detroit, MI",72,7370,8800000.0,2023-07-02
+401465534,2022-23,Travelers Championship,"June 22 - 25, 2023","TPC River Highlands - Cromwell, CT",70,6852,20000000.0,2023-06-25
+401465533,2022-23,U.S. Open,"June 15 - 18, 2023","Los Angeles Country Club - Los Angeles, CA",70,7421,20000000.0,2023-06-18
+401465532,2022-23,RBC Canadian Open,"June 8 - 11, 2023","Oakdale Golf & Country Club - Toronto, ON",72,7264,9000000.0,2023-06-11
+401465531,2022-23,The Memorial Tournament pres. by Workday,"June 1 - 4, 2023","Muirfield Village Golf Club - Dublin, OH",72,7571,20000000.0,2023-06-04
+401465530,2022-23,Charles Schwab Challenge,"May 25 - 28, 2023","Colonial Country Club - Fort Worth, TX",70,7209,8700000.0,2023-05-28
+401465523,2022-23,PGA Championship,"May 18 - 21, 2023","Oak Hill Country Club - Rochester, NY",70,7394,17500000.0,2023-05-21
+401465520,2022-23,AT&T Byron Nelson,"May 11 - 14, 2023","TPC Craig Ranch - McKinney, TX",71,7414,9500000.0,2023-05-14
+401465519,2022-23,Wells Fargo Championship,"May 4 - 7, 2023","Quail Hollow Club - Charlotte, NC",71,7538,20000000.0,2023-05-07
+401465515,2022-23,Mexico Open,"April 27 - 30, 2023","Vidanta Vallarta - Nuevo Vallarta, Mexico",71,7456,7700000.0,2023-04-30
+401465509,2022-23,RBC Heritage,"April 13 - 16, 2023","Harbour Town Golf Links - Hilton Head Island, SC",71,7213,20000000.0,2023-04-16
+401465508,2022-23,Masters Tournament,"April 6 - 9, 2023","Augusta National Golf Club - Augusta, GA",72,7545,18000000.0,2023-04-09
+401465502,2022-23,Valero Texas Open,"Mar 30 - April 2, 2023","TPC San Antonio (Oaks Course) - San Antonio, TX",72,7438,8900000.0,2023-04-02
+401465529,2022-23,Corales Puntacana Championship,"March 23 - 26, 2023","Puntacana Resort & Club (Corales Golf Course) - Punta Cana, Dominican Republic",72,7670,3800000.0,2023-03-26
+401465527,2022-23,Valspar Championship,"March 16 - 19, 2023","Innisbrook Resort (Copperhead Course) - Palm Harbor, FL",71,7340,8100000.0,2023-03-19
+401465526,2022-23,THE PLAYERS Championship,"March 9 - 12, 2023","TPC Sawgrass (THE PLAYERS Stadium Course) - Ponte Vedra Beach, FL",72,7275,25000000.0,2023-03-12
+401465524,2022-23,Arnold Palmer Invitational pres. by Mastercard,"March 2 - 5, 2023","Arnold Palmer's Bay Hill Club & Lodge - Orlando, FL",72,7466,20000000.0,2023-03-05
+401465525,2022-23,Puerto Rico Open,"March 2 - 5, 2023","Grand Reserve Country Club - Rio Grande, Puerto Rico",72,7506,3800000.0,2023-03-05
+401465522,2022-23,The Honda Classic,"February 23 - 26, 2023","PGA National Resort & Spa (The Champion) - Palm Beach Gardens, FL",70,7140,8400000.0,2023-02-26
+401465521,2022-23,The Genesis Invitational,"February 16 - 19, 2023","Riviera Country Club - Pacific Palisades, CA",71,7322,20000000.0,2023-02-19
+401465518,2022-23,WM Phoenix Open,"February 9 - 12, 2023","TPC Scottsdale (Stadium Course) - Scottsdale, AZ",71,7261,20000000.0,2023-02-12
+401465516,2022-23,Farmers Insurance Open,"January 25 - 28, 2023","Torrey Pines (North Course) - La Jolla, CA",72,7258,,2023-01-28
+401465514,2022-23,The American Express,"January 19 - 22, 2023","La Quinta Country Club - La Quinta, CA",72,7060,,2023-01-22
+401465513,2022-23,Sony Open in Hawaii,"January 12 - 15, 2023","Waialae Country Club - Honolulu, HI",70,7044,7900000.0,2023-01-15
+401465512,2022-23,Sentry Tournament of Champions,"January 5 - 8, 2023","Kapalua Resort (Plantation Course) - Kapalua, HI",73,7596,15000000.0,2023-01-08
+401465505,2022-23,Cadence Bank Houston Open,"November 10 - 13, 2022","Memorial Park Golf Course - Houston, TX",70,7412,8400000.0,2022-11-13
+401465501,2022-23,THE CJ CUP in South Carolina,"October 20 - 23, 2022","Congaree Golf Club - Ridgeland, SC",71,7655,10500000.0,2022-10-23
+401353276,2021-22,TOUR Championship,"August 25 - 28, 2022","East Lake Golf Club - Atlanta, GA",70,7346,,2022-08-28
+401353275,2021-22,BMW Championship,"August 18 - 21, 2022","Wilmington Country Club (South Course) - Wilmington, DE",71,7534,15000000.0,2022-08-21
+401353274,2021-22,FedEx St. Jude Championship,"August 11 - 14, 2022","TPC Southwind - Memphis, TN",70,7243,15000000.0,2022-08-14
+401353213,2021-22,Wyndham Championship,"August 4 - 7, 2022","Sedgefield Country Club - Greensboro, NC",70,7131,7300000.0,2022-08-07
+401353214,2021-22,Rocket Mortgage Classic,"July 28 - 31, 2022","Detroit Golf Club - Detroit, MI",72,7370,8400000.0,2022-07-31
+401353215,2021-22,3M Open,"July 21 - 24, 2022","TPC Twin Cities - Blaine, MN",71,7431,7500000.0,2022-07-24
+401353216,2021-22,Barracuda Championship,"July 14 - 17, 2022","Tahoe Mountain Club (Old Greenwood) - Truckee, CA",71,7480,3700000.0,2022-07-17
+401353217,2021-22,The Open,"July 14 - 17, 2022","St Andrews Links (Old Course) - St. Andrews, Scotland",72,7313,14000000.0,2022-07-17
+401353218,2021-22,Barbasol Championship,"July 7 - 10, 2022","Keene Trace Golf Club (Champions Course) - Nicholasville, KY",72,7328,3700000.0,2022-07-10
+401353219,2021-22,Genesis Scottish Open,"July 7 - 10, 2022","The Renaissance Club - North Berwick, Scotland",70,7237,8000000.0,2022-07-10
+401353220,2021-22,John Deere Classic,"Jun 30 - July 3, 2022","TPC Deere Run - Silvis, IL",71,7289,7100000.0,2022-07-03
+401353221,2021-22,Travelers Championship,"June 23 - 26, 2022","TPC River Highlands - Cromwell, CT",70,6852,8300000.0,2022-06-26
+401353222,2021-22,U.S. Open,"June 16 - 19, 2022","The Country Club - Brookline, MA",70,7254,17500000.0,2022-06-19
+401353223,2021-22,RBC Canadian Open,"June 9 - 12, 2022","St. George's Golf and Country Club - Toronto, ON",70,7014,8700000.0,2022-06-12
+401353224,2021-22,the Memorial Tournament pres. by Workday,"June 2 - 5, 2022","Muirfield Village Golf Club - Dublin, OH",72,7533,12000000.0,2022-06-05
+401353225,2021-22,Charles Schwab Challenge,"May 26 - 29, 2022","Colonial Country Club - Fort Worth, TX",70,7209,8400000.0,2022-05-29
+401353226,2021-22,PGA Championship,"May 19 - 22, 2022","Southern Hills Country Club - Tulsa, OK",70,7556,15000000.0,2022-05-22
+401353227,2021-22,AT&T Byron Nelson,"May 12 - 15, 2022","TPC Craig Ranch - McKinney, TX",72,7468,9100000.0,2022-05-15
+401353228,2021-22,Wells Fargo Championship,"May 5 - 8, 2022","TPC Potomac at Avenel Farm - Potomac, MD",70,7160,9000000.0,2022-05-08
+401353229,2021-22,Mexico Open,"Apr 28 - May 1, 2022","Vidanta Vallarta - Nuevo Vallarta, Mexico",71,7456,7300000.0,2022-05-01
+401353231,2021-22,RBC Heritage,"April 14 - 17, 2022","Harbour Town Golf Links - Hilton Head Island, SC",71,7191,8000000.0,2022-04-17
+401353232,2021-22,Masters Tournament,"April 7 - 10, 2022","Augusta National Golf Club - Augusta, GA",72,7475,15000000.0,2022-04-10
+401353273,2021-22,Valero Texas Open,"Mar 31 - April 3, 2022","TPC San Antonio (Oaks Course) - San Antonio, TX",72,7438,8600000.0,2022-04-03
+401353294,2021-22,Corales Puntacana Championship,"March 24 - 27, 2022","Puntacana Resort & Club (Corales Golf Course) - Punta Cana, Dominican Republic",72,7670,3700000.0,2022-03-27
+401353255,2021-22,Valspar Championship,"March 17 - 20, 2022","Innisbrook Resort (Copperhead Course) - Palm Harbor, FL",71,7340,7800000.0,2022-03-20
+401353254,2021-22,THE PLAYERS Championship,"March 10 - 14, 2022","TPC Sawgrass (THE PLAYERS Stadium Course) - Ponte Vedra Beach, FL",72,7256,20000000.0,2022-03-14
+401353253,2021-22,Puerto Rico Open,"March 3 - 6, 2022","Grand Reserve Country Club - Rio Grande, Puerto Rico",72,7506,3700000.0,2022-03-06
+401353239,2021-22,Arnold Palmer Invitational pres. by Mastercard,"March 3 - 6, 2022","Arnold Palmer's Bay Hill Club & Lodge - Orlando, FL",72,7466,12000000.0,2022-03-06
+401353238,2021-22,The Honda Classic,"February 24 - 27, 2022","PGA National Resort & Spa (The Champion) - Palm Beach Gardens, FL",70,7125,8000000.0,2022-02-27
+401353237,2021-22,The Genesis Invitational,"February 17 - 20, 2022","Riviera Country Club - Pacific Palisades, CA",71,7322,12000000.0,2022-02-20
+401353236,2021-22,WM Phoenix Open,"February 10 - 13, 2022","TPC Scottsdale (Stadium Course) - Scottsdale, AZ",71,7261,8200000.0,2022-02-13
+401353234,2021-22,Farmers Insurance Open,"January 26 - 29, 2022","Torrey Pines (North Course) - La Jolla, CA",72,7258,,2022-01-29
+401353233,2021-22,The American Express,"January 20 - 23, 2022","La Quinta Country Club - La Quinta, CA",72,7060,,2022-01-23
+401353204,2021-22,Sony Open in Hawaii,"January 13 - 16, 2022","Waialae Country Club - Honolulu, HI",70,7044,7500000.0,2022-01-16
+401353203,2021-22,Sentry Tournament of Champions,"January 6 - 9, 2022","Kapalua Resort (Plantation Course) - Kapalua, HI",73,7596,8200000.0,2022-01-09
+401366873,2021-22,Hero World Challenge,"December 2 - 5, 2021","Albany - New Providence, Bahamas",72,7414,3500000.0,2021-12-05
+401353202,2021-22,The RSM Classic,"November 18 - 21, 2021","Sea Island Resort (Seaside Course) - Saint Simons Island, GA",70,7005,,2021-11-21
+401353201,2021-22,Houston Open,"November 11 - 14, 2021","Memorial Park Golf Course - Houston, TX",70,7412,7500000.0,2021-11-14
+401353200,2021-22,World Wide Technology Championship at Mayakoba,"November 4 - 7, 2021","El Camaleón Golf Course at Mayakoba - Quintana Roo, Mexico",71,7017,7200000.0,2021-11-07
+401353199,2021-22,Butterfield Bermuda Championship,"October 28 - 31, 2021","Port Royal Golf Course - Southampton Parish, Bermuda",71,6828,6500000.0,2021-10-31
+401353197,2021-22,ZOZO CHAMPIONSHIP,"October 21 - 24, 2021","Accordia Golf Narashino CC - Chiba, Japan",70,7041,9950000.0,2021-10-24
+401353196,2021-22,THE CJ CUP @ SUMMIT,"October 14 - 17, 2021","The Summit Club - Las Vegas, NV",72,7431,9750000.0,2021-10-17
+401353195,2021-22,Shriners Children's Open,"October 7 - 10, 2021","TPC Summerlin - Las Vegas, NV",71,7255,7000000.0,2021-10-10
+401353194,2021-22,Sanderson Farms Championship,"Sep 30 - October 3, 2021","Country Club of Jackson - Jackson, MS",72,7461,7000000.0,2021-10-03

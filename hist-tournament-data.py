@@ -1,88 +1,14 @@
-# utils/tournament_utils.py
-
 import re
 import time
 from io import StringIO
 
 import pandas as pd
-from selenium import webdriver
-from selenium.common.exceptions import NoSuchElementException, TimeoutException
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
+from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-from webdriver_manager.chrome import ChromeDriverManager
 
-
-def setup_driver():
-    chrome_options = Options()
-    chrome_options.add_argument("--headless")
-    service = Service(ChromeDriverManager().install())
-    driver = webdriver.Chrome(service=service, options=chrome_options)
-    return driver
-
-
-def scrape_tournament_info(driver, url):
-    driver.get(url)
-    tournament_info = {}
-    selectors = {
-        "Tournament name": ("Leaderboard__Event__Title", "class"),
-        "Date": ("Leaderboard__Event__Date", "class"),
-        "Location": ("Leaderboard__Course__Location", "class"),
-        "Details": ("Leaderboard__Course__Location__Detail", "class"),
-        "Purse": ("//div[@class='Leaderboard__Courses']/div[2]", "xpath"),
-    }
-
-    selector_types = {
-        "css": By.CSS_SELECTOR,
-        "xpath": By.XPATH,
-        "id": By.ID,
-        "class": By.CLASS_NAME,
-        "name": By.NAME,
-        "tag": By.TAG_NAME,
-    }
-
-    def check_selector(selector, selector_type="class", timeout=10):
-        if selector_type not in selector_types:
-            raise ValueError(
-                f"Invalid selector type. Choose from: {', '.join(selector_types.keys())}"
-            )
-
-        by_type = selector_types[selector_type]
-        try:
-            element = WebDriverWait(driver, timeout).until(
-                EC.presence_of_element_located((by_type, selector))
-            )
-            return element.text.strip()
-        except (TimeoutException, NoSuchElementException):
-            return "Not found"
-
-    for key, (selector, selector_type) in selectors.items():
-        tournament_info[key] = check_selector(selector, selector_type)
-
-    # Process Details
-    if "Details" in tournament_info and tournament_info["Details"] != "Not found":
-        details = tournament_info["Details"]
-        par_match = re.search(r"Par(\d+)", details)
-        yards_match = re.search(r"Yards(\d+)", details)
-        if par_match:
-            tournament_info["Par"] = par_match.group(1)
-        if yards_match:
-            tournament_info["Yards"] = yards_match.group(1)
-        del tournament_info["Details"]
-
-    # Process Purse
-    if "Purse" in tournament_info and tournament_info["Purse"] != "Not found":
-        purse = tournament_info["Purse"]
-        if "Purse" in purse:
-            purse_match = re.search(r"Purse\$([0-9,]+)", purse)
-            if purse_match:
-                tournament_info["Purse"] = purse_match.group(1).replace(",", "")
-        else:
-            del tournament_info["Purse"]
-
-    return tournament_info
+from utils import setup_driver
 
 
 def extract_tournament_id(url):
@@ -172,46 +98,6 @@ def scrape_leaderboard(url):
         driver.quit()
 
 
-def load_tournament_info(csv_file):
-    df = pd.read_csv(csv_file)
-    print(f"Original DataFrame shape: {df.shape}")
-    print(f"Columns: {df.columns.tolist()}")
-    print(f"Data types: \n{df.dtypes}")
-
-    # Remove rows with missing Tournament ID
-    df = df.dropna(subset=["Tournament ID"])
-
-    # Convert Tournament ID to integer
-    df["Tournament ID"] = df["Tournament ID"].astype(int)
-
-    print(f"Cleaned DataFrame shape: {df.shape}")
-
-    unique_ids = df["Tournament ID"].nunique()
-    total_ids = len(df["Tournament ID"])
-    print(f"Unique Tournament IDs: {unique_ids} out of {total_ids} total")
-
-    return df
-
-
-def generate_urls(tournament_info):
-    base_url = "https://www.espn.com/golf/leaderboard/_/tournamentId/"
-
-    if isinstance(tournament_info, dict):
-        # Original functionality: dictionary with "Tournament ID" key
-        return [f"{base_url}{tid}" for tid in tournament_info["Tournament ID"]]
-
-    elif isinstance(tournament_info, str):
-        # Single tournament ID as a string
-        return [f"{base_url}{tournament_info}"]
-
-    elif isinstance(tournament_info, list):
-        # List of tournament IDs as strings
-        return [f"{base_url}{tid}" for tid in tournament_info]
-
-    else:
-        raise TypeError("Input must be a dictionary, a string, or a list of strings")
-
-
 def clean_leaderboard_data(df, tournament_id):
     if df is None:
         return None, None
@@ -247,3 +133,94 @@ def clean_leaderboard_data(df, tournament_id):
         df["FEDEX PTS"] = pd.to_numeric(df["FEDEX PTS"], errors="coerce")
 
     return df, extra_column_info
+
+
+def load_tournament_info(csv_file):
+    df = pd.read_csv(csv_file)
+    print(f"Original DataFrame shape: {df.shape}")
+    print(f"Columns: {df.columns.tolist()}")
+    print(f"Data types: \n{df.dtypes}")
+
+    # Remove rows with missing Tournament ID
+    df = df.dropna(subset=["Tournament ID"])
+
+    # Convert Tournament ID to integer
+    df["Tournament ID"] = df["Tournament ID"].astype(int)
+
+    print(f"Cleaned DataFrame shape: {df.shape}")
+
+    unique_ids = df["Tournament ID"].nunique()
+    total_ids = len(df["Tournament ID"])
+    print(f"Unique Tournament IDs: {unique_ids} out of {total_ids} total")
+
+    return df
+
+
+def generate_urls(tournament_info):
+    base_url = "https://www.espn.com/golf/leaderboard/_/tournamentId/"
+    return [f"{base_url}{int(tid)}" for tid in tournament_info["Tournament ID"]]
+
+
+def main():
+    tournament_info = load_tournament_info("data/tournament_info.csv")
+
+    tournament_urls = generate_urls(tournament_info)
+
+    all_leaderboards = []
+    failed_tournament_ids = []
+    extra_column_data = []  # List to store information about extra columns
+
+    for url in tournament_urls:
+        print(f"Scraping tournament: {url}")
+        tournament_id = extract_tournament_id(url)
+        leaderboard_df = scrape_leaderboard(url)
+        if leaderboard_df is not None:
+            leaderboard_df, extra_info = clean_leaderboard_data(
+                leaderboard_df, tournament_id
+            )
+            if extra_info:
+                extra_column_data.append(extra_info)
+            if leaderboard_df is not None:
+                all_leaderboards.append(leaderboard_df)
+            else:
+                failed_tournament_ids.append(tournament_id)
+                print(f"Failed to clean data for tournament ID: {tournament_id}")
+        else:
+            failed_tournament_ids.append(tournament_id)
+            print(f"Failed to scrape data for tournament ID: {tournament_id}")
+
+    if all_leaderboards:
+        combined_leaderboard = pd.concat(all_leaderboards, ignore_index=True)
+
+        print(combined_leaderboard.head())
+        print(combined_leaderboard.info())
+
+        db_name = "leaderboards_data.csv"
+        combined_leaderboard.to_csv(f"data/{db_name}", index=False)
+        print(f"Combined leaderboard data saved to {db_name}")
+    else:
+        print("No leaderboard data was successfully scraped.")
+
+    # Save failed tournament IDs to a CSV file
+    if failed_tournament_ids:
+        failed_df = pd.DataFrame({"Failed_Tournament_ID": failed_tournament_ids})
+        failed_df.to_csv("data/failed_tournament_ids.csv", index=False)
+        print(
+            f"Failed tournament IDs saved to failed_tournament_ids.csv. Total failed: {len(failed_tournament_ids)}"
+        )
+    else:
+        print("All tournaments were successfully scraped.")
+
+    # Save information about tournaments with extra columns
+    if extra_column_data:
+        extra_column_df = pd.DataFrame(extra_column_data)
+        extra_column_df.to_csv("data/extra_column_tournaments.csv", index=False)
+        print(
+            f"Information about tournaments with extra columns saved to extra_column_tournaments.csv. Total: {len(extra_column_data)}"
+        )
+    else:
+        print("No tournaments with extra columns detected.")
+
+
+if __name__ == "__main__":
+    main()
