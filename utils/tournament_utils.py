@@ -15,11 +15,42 @@ from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 
 
-def setup_driver():
+def setup_driver(headless=True, additional_options=None):
+    """
+    Set up and return a Chrome WebDriver instance.
+
+    This function creates a Chrome WebDriver with specified options. It allows
+    for easy switching between headless and non-headless modes, and provides
+    the ability to add custom Chrome options.
+
+    Args:
+        headless (bool, optional): Whether to run Chrome in headless mode.
+            Defaults to True.
+        additional_options (list, optional): A list of additional Chrome options
+            to be added. Each option should be a string. Defaults to None.
+
+    Returns:
+        webdriver.Chrome: An instance of Chrome WebDriver.
+
+    Example:
+        # Create a headless driver with no additional options
+        driver = setup_driver()
+
+        # Create a non-headless driver with additional options
+        driver = setup_driver(headless=False, additional_options=["--start-maximized", "--disable-extensions"])
+    """
     chrome_options = Options()
-    chrome_options.add_argument("--headless")
+
+    if headless:
+        chrome_options.add_argument("--headless")
+
+    if additional_options:
+        for option in additional_options:
+            chrome_options.add_argument(option)
+
     service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=chrome_options)
+
     return driver
 
 
@@ -85,15 +116,38 @@ def scrape_tournament_info(driver, url):
     return tournament_info
 
 
-def extract_tournament_id(url):
-    match = re.search(r"/tournamentId/(\d+)", url)
-    if match:
-        tournament_id = match.group(1)
-        print(f"Extracted Tournament ID: {tournament_id}")
+def extract_tournament_id(input_string):
+    """
+    Extract tournament ID from a URL or a CSV filename.
+
+    Args:
+    input_string (str): Either a URL or a CSV filename containing the tournament ID.
+
+    Returns:
+    str: The extracted tournament ID, or None if not found.
+
+    Examples:
+    >>> extract_tournament_id("https://www.espn.com/golf/leaderboard/_/tournamentId/401353214")
+    '401353214'
+    >>> extract_tournament_id("player_stats_401353214.csv")
+    '401353214'
+    """
+    # Try to match URL pattern
+    url_match = re.search(r"/tournamentId/(\d+)", input_string)
+    if url_match:
+        tournament_id = url_match.group(1)
+        print(f"Extracted Tournament ID from URL: {tournament_id}")
         return tournament_id
-    else:
-        print("Tournament ID not found in URL")
-        return None
+
+    # Try to match CSV filename pattern
+    csv_match = re.search(r"player_stats_(\d+)\.csv", input_string)
+    if csv_match:
+        tournament_id = csv_match.group(1)
+        print(f"Extracted Tournament ID from filename: {tournament_id}")
+        return tournament_id
+
+    print("Tournament ID not found in input string")
+    return None
 
 
 def scrape_leaderboard(url):
@@ -194,6 +248,37 @@ def load_tournament_info(csv_file):
 
 
 def generate_urls(tournament_info):
+    """
+    Generate ESPN golf leaderboard URLs based on tournament IDs.
+
+    This function creates URLs for ESPN golf tournament leaderboards. It can handle
+    different input formats for flexibility in various use cases.
+
+    Args:
+        tournament_info (Union[dict, str, list]): The tournament information in one of three formats:
+            - dict: A dictionary with a key "Tournament ID" containing a list of tournament IDs.
+            - str: A single tournament ID as a string.
+            - list: A list of tournament IDs as strings.
+
+    Returns:
+        list: A list of URLs for ESPN golf leaderboards. Each URL is formed by
+              concatenating the base URL with a tournament ID.
+
+    Raises:
+        TypeError: If the input is not a dictionary, string, or list of strings.
+
+    Examples:
+        >>> generate_urls({"Tournament ID": ["401353308", "401353310"]})
+        ['https://www.espn.com/golf/leaderboard/_/tournamentId/401353308',
+         'https://www.espn.com/golf/leaderboard/_/tournamentId/401353310']
+
+        >>> generate_urls("401353308")
+        ['https://www.espn.com/golf/leaderboard/_/tournamentId/401353308']
+
+        >>> generate_urls(["401353308", "401353310"])
+        ['https://www.espn.com/golf/leaderboard/_/tournamentId/401353308',
+         'https://www.espn.com/golf/leaderboard/_/tournamentId/401353310']
+    """
     base_url = "https://www.espn.com/golf/leaderboard/_/tournamentId/"
 
     if isinstance(tournament_info, dict):
