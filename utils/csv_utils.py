@@ -1,8 +1,94 @@
 import os
 from pathlib import Path
-from typing import List, Tuple
+from typing import List, Optional, Tuple
 
 import pandas as pd
+
+
+def combine_tournament_data(
+    input_dir: str, output_file: str, file_pattern: Optional[str] = None
+) -> None:
+    """
+    Combine tournament data (player stats or course stats) from multiple CSV files into a single CSV file.
+
+    This function reads all CSV files in the specified input directory (or files
+    matching the given pattern), combines them into a single DataFrame, and saves
+    the result to a new CSV file. It's designed to work with both player statistics
+    and course data, adding a 'tournament_id' column based on the filename.
+
+    Args:
+        input_dir (str): Path to the directory containing the input CSV files.
+        output_file (str): Path where the combined CSV file will be saved.
+        file_pattern (str, optional): If provided, only files matching this pattern will be processed.
+                                      For example, "player_stats_*.csv" or "course_stats_*.csv".
+                                      Defaults to None (all CSV files in the directory).
+
+    Raises:
+        FileNotFoundError: If no CSV files are found in the input directory.
+
+    Example usage:
+        combine_tournament_data(
+            input_dir="data/player-stats",
+            output_file="data/combined_player_stats.csv",
+            file_pattern="player_stats_*.csv"
+        )
+
+        combine_tournament_data(
+            input_dir="data/course-stats",
+            output_file="data/combined_course_stats.csv",
+            file_pattern="course_stats_*.csv"
+        )
+    """
+    # List all CSV files in the input directory
+    if file_pattern:
+        csv_files = [
+            f
+            for f in os.listdir(input_dir)
+            if f.endswith(".csv") and f.startswith(file_pattern.replace("*", ""))
+        ]
+    else:
+        csv_files = [f for f in os.listdir(input_dir) if f.endswith(".csv")]
+
+    if not csv_files:
+        raise FileNotFoundError(f"No CSV files found in {input_dir}")
+
+    print(f"Found {len(csv_files)} CSV files to process.")
+
+    # Initialize an empty list to store dataframes
+    dfs: List[pd.DataFrame] = []
+
+    # Read each CSV file and append to the list
+    for file in csv_files:
+        file_path = os.path.join(input_dir, file)
+        df = pd.read_csv(file_path)
+
+        # Extract tournament ID from filename
+        # Assuming filename format is like "player_stats_401353214.csv" or "course_stats_401353214.csv"
+        tournament_id = file.split("_")[-1].split(".")[0]
+
+        # Add tournament_id column if it doesn't exist
+        if "tournament_id" not in df.columns:
+            df["tournament_id"] = tournament_id
+
+        dfs.append(df)
+        print(f"Processed {file}")
+
+    # Combine all dataframes
+    combined_df = pd.concat(dfs, ignore_index=True)
+
+    # Reorder columns to put tournament_id first if it exists
+    if "tournament_id" in combined_df.columns:
+        columns = combined_df.columns.tolist()
+        columns.insert(0, columns.pop(columns.index("tournament_id")))
+        combined_df = combined_df[columns]
+
+    # Save the combined dataframe to a new CSV file
+    combined_df.to_csv(output_file, index=False)
+    print(f"Combined data saved to {output_file}")
+
+    # Print some statistics about the combined data
+    print(f"Total rows in combined data: {len(combined_df)}")
+    print(f"Number of unique tournaments: {combined_df['tournament_id'].nunique()}")
 
 
 def load_and_compare_csv(
